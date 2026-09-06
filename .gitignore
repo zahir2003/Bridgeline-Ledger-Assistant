@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+bridgeline/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Generated / local data
+# Keep the provided ledger and cleaned ledger tracked.
+# Add only temporary/generated data here if needed.
+
+# Ollama local files
+.ollama/
+
+# Debug / benchmark outputs
+benchmark_output/
+evaluation_output/
